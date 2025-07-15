@@ -59,7 +59,7 @@ ol {
 }
 
 .result {
-  grid-area: "result";
+  grid-area: result;
   align-self: end;
 }
 
@@ -148,8 +148,9 @@ ol {
   cursor: pointer;
 }
 
-.search-form__checkbox-list .search-form__label:hover {
+.search-form__checkbox-list .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
+  cursor: pointer;
 }
 .search-form__checkbox-list .search-form__label:has(:focus-visible) {
   outline: 1px #fff solid;
@@ -218,7 +219,7 @@ ol {
 
 
 .content__details {
-  grid-area: "content__details";
+  grid-area: content__details;
 }
 
 .title {
